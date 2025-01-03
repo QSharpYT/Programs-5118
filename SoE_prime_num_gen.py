@@ -15,5 +15,5 @@ def Sieve_of_Eratosthenes(n):
         if not notSorted[a] in notPrimes:
             primes.append(notSorted[a])
     print(primes)
-
-Sieve_of_Eratosthenes(40)
+ui = input("Generate primes up to")
+Sieve_of_Eratosthenes(int(ui))
